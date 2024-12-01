@@ -1,0 +1,109 @@
+/* Globals */
+* {
+  margin: 15px;
+  padding: 5px;
+  cursor: grab;
+}
+
+body {
+  background: rgb(141, 141, 247);
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Index Main Page */
+.week {
+  text-align: left;
+}
+
+.week span {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.week a {
+  text-decoration: none;
+  height: 30px;
+  display: block;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  align-content: center;
+  background: rgb(166, 253, 25);
+}
+
+.week a:hover {
+  background: rgb(67, 25, 253);
+}
+
+/* Daily Notes */
+.header {
+  background: rgb(5, 252, 17);
+  padding: 25px 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.header:hover {
+  background: rgb(67, 25, 253);
+}
+
+.title {
+  background: rgb(235, 252, 5);
+  padding: 25px 5px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.title:hover {
+  background: rgb(67, 25, 253);
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(500px, 1fr)
+  );
+}
+
+.list-item {
+  min-height: 150px;
+  align-content: center;
+  padding: 10px;
+  background: rgb(25, 181, 253);
+  border-radius: 20px;
+}
+
+.list-item:hover {
+  background: rgb(166, 253, 25);
+}
+
+.objective,
+.practice-item {
+  min-height: 150px;
+  align-content: center;
+  padding: 10px;
+  background: rgb(253, 25, 204);
+  border-radius: 20px;
+}
+
+.objective span,
+.practice-item span {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-style: italic;
+  display: block;
+}
+
+.objective:hover,
+.practice-item:hover {
+  background: rgb(67, 25, 253);
+}
